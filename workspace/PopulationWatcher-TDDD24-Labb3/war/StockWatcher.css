@@ -1,0 +1,62 @@
+/* Formatting specific to the PopulationWatcher application */
+body {
+	padding: 10px;
+}
+
+/* city list header row */
+.watchListHeader {
+	background-color: #2062B8;
+	color: white;
+	font-style: italic;
+}
+
+/* city list flex table */
+.watchList {
+	border: 1px solid silver;
+	padding: 2px;
+	margin-bottom: 6px;
+}
+
+/* city list population and area fields */
+.watchListNumericColumn {
+	text-align: right;
+	width: 8em;
+}
+
+/* city list Remove column */
+.watchListRemoveColumn {
+	text-align: center;
+}
+
+/* Add city panel */
+.addPanel {
+	margin: 10px 0px 15px 0px;
+}
+
+/* city list, the Remove button */
+.gwt-Button-remove {
+	width: 50px;
+}
+
+/* Dynamic color changes for the population field */
+.noChange {
+	color: black;
+}
+
+.positiveChange {
+	color: green;
+}
+
+.negativeChange {
+	color: red;
+}
+
+.errorMessage {
+	color: red;
+}
+
+/* Text Area */
+.addAvailableCityPanel {
+	margin-bottom: 6px;
+}
+}

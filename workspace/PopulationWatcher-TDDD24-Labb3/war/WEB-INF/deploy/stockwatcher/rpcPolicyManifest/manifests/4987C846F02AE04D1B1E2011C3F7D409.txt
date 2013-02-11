@@ -1,0 +1,2 @@
+serviceClass: com.google.sample.stockwatcher.client.CityPopulationService
+path: E5C0A140140809D5F91395A2F7E2284E.gwt.rpc
